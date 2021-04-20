@@ -5,7 +5,7 @@
 
 .menu{
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .menu span{
@@ -16,12 +16,27 @@
     text-align: center;
     line-height: 30px;
 }
+.menu-vertical span{
+    display: block;
+
+}
+
+.menu_dropdown{
+    display: none;
+}
+
+.menu_dropdown span{
+    background-color: yellow;
+    color: black;
+}
 
 .menu span:hover{
     background-color: red;
     color: white;
 }
 
-.menu-vertical span{
+.menu span:hover .menu_dropdown{
     display: block;
+    position: fixed;
 }
+
