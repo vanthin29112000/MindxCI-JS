@@ -1,0 +1,166 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #2b58ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login_form{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 1%;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    display: flex;
+}
+
+.Login_form_left{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Login_form_left img{
+    width: 100%;
+    height:100%;
+    border-radius: 1% 0% 0% 1%;
+}
+
+.Login_form_right{
+    width: 50%;
+    height: 100%;
+}
+
+.Login{
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #9c9c9c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#2b58ac;
+}
+
+.form_user_pass{
+    width: 100%;
+    margin-top: 10%;
+    height: 75%;
+    display: grid;
+    grid-template-rows: 15% 15% 17% 10% 20%;
+}
+
+.check_lable{
+    cursor: pointer;
+}
+
+.check_box{
+    width: 0;
+    height: 0;
+ 
+}
+
+.box_check{
+    margin-right: 1%;
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #9c9c9c;
+    position: relative;
+}
+
+.box_check::after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check_box:checked ~ .box_check{
+    background-color: #2b58ac;
+    border-radius: 1px;
+    border: none;
+}
+
+.check_box:checked ~ .box_check::after{
+    top: -1px;
+    left: 4px;
+    width: 4px;
+    height: 11px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    display: block;
+
+    transform: rotate(45deg);
+}
+
+.form_log{
+    width: 100%;
+    height: 70%;
+    margin-top: 2.5%;
+    padding-left: 5%;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.form_log::placeholder{
+    color: #9c9c9c;
+}
+
+
+.check_remem{
+    display: flex;
+    align-items: center;
+}
+
+.Submit{
+    border: none;
+    background-color: #2b58ac;
+    color: white;
+}
+
+.Submit:active
+{
+    opacity: 0.75;
+}
+
+.Submit:hover
+{
+    opacity: 0.75;
+}
+
+.forgot
+{
+    padding-top: 5%;
+    text-align: end;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+.change_Sign_Up{
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+    
+}
+.change_Sign_Up a{
+    color: #9c9c9c;
+}
