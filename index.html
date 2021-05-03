@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/19793a3053.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-background">
+            <div class="desktop">
+                <div class="header-background-logo-desktop">
+                    <img src="./1594126270885-1577762085284-1571027713600-logo techkids moi 7 (1)-05.png" alt="">
+                </div>
+                <div class="background-search-desktop">
+                    <div class="background-search-desktop-icon ">
+                        <i class="fas fa-location-arrow "></i>
+                    </div>
+                    <div class="background-search-desktop-input">
+                        <input list="country-desktop" type="text" id="background-search-icon" onclick="change_Input('country-desktop')">
+                        <datalist id="country-desktop">
+                        </datalist>
+                        <i class="fas fa-search" id="icon-search" onclick="call_arae('background-search-icon')"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mobile">
+                <div class="header-background-icon-dropdown-mobile">
+                    <i class="fas fa-align-justify btn-icon"></i>
+                    <div class="header-background-dropdown">
+                        <div class="background-dropdown-close">
+                            <p>X</p>
+                        </div>
+                        <div class="background-dropdown-search">
+                            <input list="country-mobile" type="text" class="border-dropdown" onclick="change_Input('country-mobile')" id="background-search-icon-mobile">
+                            <datalist id="country-mobile">
+                            </datalist>
+                            <i class="fas fa-search" onclick="call_arae('background-search-icon-mobile')"></i>
+                        </div>
+                        <div class="background-dropdown-location">
+                            <i class="fas fa-location-arrow "></i>
+                            <p>Current Location</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-background-logo-mobile">
+                    <img src="./1594126270885-1577762085284-1571027713600-logo techkids moi 7 (1)-05.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="content1">
+            <div class="body-background body-background-top ">
+                <div class="body-background-top-mobile">
+                    <p>Current Location</p>
+                    <p><h2>Ho Chi Minh City, Vietnam</h2></p>
+                </div>
+                <div class="body-background-left">
+                    <img src="./day_rain_thunder.png" alt="">
+                    <div class="title">
+                        <h1 class="temperature">26 &#176;C</h1>
+                        <p>Mostly Sunny</p>
+                        <p>Feel like 28 &#176;C</p>
+                    </div>
+                </div>
+                <div class="body-background-right-desktop ">
+                    <p>Current Location</p>
+                    <h2 class="temperature">Ho Chi Minh City, Vietnam</h2>
+                </div>
+            </div>
+            <div class=" body-background-bottom">
+                <script src="./index.js"></script>
+                <script>Loop_item(0)</script>
+            </div>
+        </div>
+        <div class="content1">
+            <div class="body-background body-background-top ">
+                <div class="body-background-top-mobile">
+                    <p>Current Location</p>
+                    <p><h2>Ho Chi Minh City, Vietnam</h2></p>
+                </div>
+                <div class="body-background-left">
+                    <img src="./day_rain_thunder.png" alt="">
+                    <div class="title">
+                        <h1 class="temperature">26 &#176;C</h1>
+                        <p>Mostly Sunny</p>
+                        <p>Feel like 28 &#176;C</p>
+                    </div>
+                </div>
+                <div class="body-background-right-desktop">
+                    <p>Current Location</p>
+                    <p><h2 class="temperature">Ho Chi Minh City, Vietnam</h2></p>
+                </div>
+            </div>
+            <div class=" body-background-bottom">
+                <script src="./index.js"></script>
+                <script>Loop_item(1)</script>
+            </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
