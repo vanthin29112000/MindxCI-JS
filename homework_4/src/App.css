@@ -1,0 +1,83 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoList {
+  width: 50%;
+  height: 50%;
+}
+
+.title-toDoList {
+  width: 100%;
+  height: 15%;
+}
+
+.box-toDoList {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+}
+
+.undone {
+  width: 48%;
+  margin-right: 4%;
+  box-shadow: 8px 5px 8px 2px #d8d6d6;
+  border-radius: 5px;
+}
+
+.done {
+  width: 48%;
+  box-shadow: 8px 5px 8px 2px #d8d6d6;
+  border-radius: 5px;
+}
+
+.title {
+  border-radius: 5px 5px 0 0;
+  height: auto;
+  padding: 8px 0px 8px 16px;
+  background-color: #c65173;
+  font-weight: bold;
+  color: #eeeeee;
+  margin-bottom: 8px;
+}
+
+.color-complete {
+  background-color: #9cdbec;
+}
+
+.list-option {
+  margin-bottom: 8px;
+}
+
+.selection {
+  height: 32px;
+  line-height: 32px;
+  padding-left: 16px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.selection:hover {
+  background-color: #9cdbec;
+}
+
+.selection-done:hover {
+  background-color: #c65173;
+}
